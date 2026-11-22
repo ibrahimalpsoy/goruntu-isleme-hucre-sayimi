@@ -1,0 +1,69 @@
+{
+  "secilen_pipeline": "Pipeline A",
+  "seed": 31066,
+  "pipeline": {
+    "yogunluk": {
+      "yontem": "orijinal"
+    },
+    "filtre": {
+      "yontem": "gauss",
+      "kernel": 5
+    },
+    "esikleme": {
+      "yontem": "sabit",
+      "esik": 3
+    },
+    "morfoloji": [
+      [
+        "acma",
+        3
+      ]
+    ],
+    "delik_doldurma": true,
+    "min_alan": 400,
+    "ayirma": {
+      "yontem": "yok"
+    }
+  },
+  "baseline": {
+    "yogunluk": {
+      "yontem": "orijinal"
+    },
+    "filtre": {
+      "yontem": "yok"
+    },
+    "esikleme": {
+      "yontem": "otsu"
+    },
+    "morfoloji": [],
+    "delik_doldurma": false,
+    "min_alan": 25,
+    "ayirma": {
+      "yontem": "yok"
+    }
+  },
+  "adim_sirasi": [
+    "yoğunluk dönüşümü",
+    "filtre",
+    "eşikleme",
+    "morfoloji",
+    "delik doldurma",
+    "minimum alan temizliği",
+    "bağlı bileşen etiketleme (8-komşuluk)",
+    "sayım"
+  ],
+  "secim_gerekcesi": "En düşük doğrulama MAE; eşitlikte RMSE, süre ve adım sayısı.",
+  "dogrulama": {
+    "Validation_MAE": 1.4,
+    "Validation_RMSE": 1.732,
+    "Ortalama_sure_s": 0.0459
+  },
+  "parametre_kaynaklari": {
+    "sabit_esik_orijinal": 3,
+    "sabit_esik_kontrast_germe": 10,
+    "min_alan": 400,
+    "baseline_min_alan": 25,
+    "watershed_min_mesafe": 35,
+    "hist_eslestirme_referansi": "development t000"
+  }
+}

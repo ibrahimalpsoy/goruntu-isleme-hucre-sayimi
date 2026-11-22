@@ -1,0 +1,5 @@
+Pipeline,Validation_MAE,Validation_RMSE,Bias,Ortalama_sure_s,Adim_sayisi,Aciklama,Secim
+Pipeline A,1.4,1.732,0.2,0.0459,5,Orijinal | Gauss 5x5 | Sabit T=3 | açma r3 + delik dold. | min alan 400,Seçildi
+Pipeline B,1.4,2.324,1.4,0.0943,6,Kontrast germe | Gauss 5x5 | Adaptif b=201 C=-2 | açma r3 + delik dold. | min alan 400,-
+Pipeline C,1.6,2.366,1.6,0.2585,7,Kontrast germe | Gauss 5x5 | Adaptif b=201 C=-2 | açma r3 + delik dold. + watershed (35) | min alan 400,-
+Baseline,7.0,8.866,0.6,0.0195,3,Orijinal | Yok | Otsu | Yok | min alan 25,Referans (aday değil)
