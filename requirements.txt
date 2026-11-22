@@ -1,0 +1,9 @@
+# Projeyi çalıştırdığım sürümler (Python 3.13)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-image==0.26.0
+matplotlib==3.11.2
+opencv-python-headless==5.0.0.93
+jupyter
+nbconvert

@@ -1,0 +1,7 @@
+# Veri seti GitHub'a konmuyor (Cell Tracking Challenge kuralı)
+data/*
+!data/README.md
+# Veri seti görüntüsü içeren grafikler sadece raporda kullanılıyor
+figures_private/
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,33 @@
+{
+  "seed": 31066,
+  "seed_hesabi": "29040 + 2026",
+  "sequence01_kare_sayisi": 92,
+  "sequence02_kare_sayisi": 92,
+  "dev_val_deneme_sayisi": 1,
+  "test_deneme_sayisi": 3,
+  "development": [
+    0,
+    2,
+    5,
+    24,
+    27,
+    29,
+    32,
+    59,
+    71,
+    72
+  ],
+  "validation": [
+    16,
+    39,
+    51,
+    84,
+    86
+  ],
+  "test_blok_baslangiclari": [
+    10,
+    30,
+    64
+  ],
+  "dev_val_en_kucuk_fark": 7
+}
